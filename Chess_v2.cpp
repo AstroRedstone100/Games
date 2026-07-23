@@ -186,14 +186,14 @@ bool notlegal(int movetype, int& kingposin, int col, int cellin, int selectedpos
             repre[g] = null;
             pieces.erase(pieces.begin() + h);
             for (int Idx = h; Idx < pieces.size(); Idx++) {repre[cotoin(pieces[Idx].position)] = Idx;}
-            if (selected > h) {selected--;} if (kingposin > h) {kingposin--;}
+            if (selected > h) {selected--;}
         }
     } if (piecein == null) { // Move
         if (check(kingposin, col).size() > 0) {return true;} else {return false;}
     } else { // Capture
         pieces.erase(pieces.begin() + piecein);
         for (int Idx = piecein; Idx < pieces.size(); Idx++) {repre[cotoin(pieces[Idx].position)] = Idx;}
-        if (selected > piecein) {selected--;} if (kingposin > piecein) {kingposin--;}
+        if (selected > piecein) {selected--;}
         if (check(kingposin, col).size() > 0) {return true;} else {return false;}
     }
 }
@@ -297,15 +297,15 @@ int main() {
                         if (nsc % 100 == r) {int u = nsc / 100; if (u > Ni) {Ni = u+1;}}
                     } int earliercode = pieces[repre[promoposin]].code;
                     pieces[repre[promoposin]] = piece(intoco(promoposin), textures[promocol*10 + indexfix[score]], Ni*100 + r);
-                    promoposin = null;
                     int opkingposin = null;
                     for (int idx = 0; idx < 64; idx++) {
                         int N = repre[idx];
                         if (N == null) {continue;}
                         else if (pieces[N].code == 181 - promocol) {opkingposin = idx; break;}
                     } std::cout << notation(1, movetype, cellin, promoposin, indexfix, earliercode,
-                        letters, null, check(opkingposin, 1 - promocol), opkingposin, promocol, squares);
+                        letters, num+1, check(opkingposin, 1 - promocol), opkingposin, promocol, squares);
                     if (promocol == 1) {std::cout << std::endl;} else {std::cout << "     ";}
+                    promoposin = null;
                 }
             } if (selected == null && promoposin == null) { // Selection
                 if (piecein != null) {
