@@ -1,0 +1,115 @@
+***** real_sorted.txt
+18124:  c3b5 h3g2 b5a3
+18125:  c3b5 h3g2 b5a7
+***** FAKE_SORTED.TXT
+18124:  c3b5 h3g2 b5a3
+18125:  c3b5 h3g2 b5a3
+18126:  c3b5 h3g2 b5a3
+18127:  c3b5 h3g2 b5a3
+18128:  c3b5 h3g2 b5a7
+*****
+
+***** real_sorted.txt
+18128:  c3b5 h3g2 b5d4
+18129:  c3b5 h3g2 b5d6
+***** FAKE_SORTED.TXT
+18131:  c3b5 h3g2 b5d4
+18132:  c3b5 h3g2 b5d4
+18133:  c3b5 h3g2 b5d4
+18134:  c3b5 h3g2 b5d4
+18135:  c3b5 h3g2 b5d6
+*****
+
+***** real_sorted.txt
+34716:  d5e6 h3g2 e6f7
+34717:  d5e6 h3g2 f3d3
+***** FAKE_SORTED.TXT
+34722:  d5e6 h3g2 e6f7
+34723:  d5e6 h3g2 e6f7
+34724:  d5e6 h3g2 e6f7
+34725:  d5e6 h3g2 e6f7
+34726:  d5e6 h3g2 f3d3
+*****
+
+***** real_sorted.txt
+46321:  e2b5 h3g2 b5a4
+46322:  e2b5 h3g2 b5a6
+***** FAKE_SORTED.TXT
+46330:  e2b5 h3g2 b5a4
+46331:  e2b5 h3g2 b5a4
+46332:  e2b5 h3g2 b5a4
+46333:  e2b5 h3g2 b5a4
+46334:  e2b5 h3g2 b5a6
+*****
+
+***** real_sorted.txt
+56204:  e5c4 h3g2 e4e5
+56205:  e5c4 h3g2 f3d3
+***** FAKE_SORTED.TXT
+56216:  e5c4 h3g2 e4e5
+56217:  e5c4 h3g2 e4e5
+56218:  e5c4 h3g2 e4e5
+56219:  e5c4 h3g2 e4e5
+56220:  e5c4 h3g2 f3d3
+*****
+
+***** real_sorted.txt
+62128:  e5d7 h3g2 d7c5
+62129:  e5d7 h3g2 d7e5
+***** FAKE_SORTED.TXT
+62143:  e5d7 h3g2 d7c5
+62144:  e5d7 h3g2 d7c5
+62145:  e5d7 h3g2 d7c5
+62146:  e5d7 h3g2 d7c5
+62147:  e5d7 h3g2 d7e5
+*****
+
+***** real_sorted.txt
+64229:  e5f7 h3g2 f7h6
+64230:  e5f7 h3g2 f7h8
+***** FAKE_SORTED.TXT
+64247:  e5f7 h3g2 f7h6
+64248:  e5f7 h3g2 f7h6
+64249:  e5f7 h3g2 f7h6
+64250:  e5f7 h3g2 f7h6
+64251:  e5f7 h3g2 f7h8
+64252:  e5f7 h3g2 f7h8
+64253:  e5f7 h3g2 f7h8
+64254:  e5f7 h3g2 f7h8
+*****
+
+***** real_sorted.txt
+66138:  e5g4 h3g2 g4h6
+66139:  e5g4 h3g2 h1f1
+***** FAKE_SORTED.TXT
+66162:  e5g4 h3g2 g4h6
+66163:  e5g4 h3g2 g4h6
+66164:  e5g4 h3g2 g4h6
+66165:  e5g4 h3g2 g4h6
+66166:  e5g4 h3g2 h1f1
+*****
+
+***** real_sorted.txt
+78879:  f3f6 h3g2 f6g6
+78880:  f3f6 h3g2 f6g7
+***** FAKE_SORTED.TXT
+78906:  f3f6 h3g2 f6g6
+78907:  f3f6 h3g2 f6g6
+78908:  f3f6 h3g2 f6g6
+78909:  f3f6 h3g2 f6g6
+78910:  f3f6 h3g2 f6g7
+78911:  f3f6 h3g2 f6g7
+78912:  f3f6 h3g2 f6g7
+78913:  f3f6 h3g2 f6g7
+*****
+
+***** real_sorted.txt
+87964:  f3h5 h3g2 h5h4
+87965:  f3h5 h3g2 h5h6
+***** FAKE_SORTED.TXT
+87997:  f3h5 h3g2 h5h4
+87998:  f3h5 h3g2 h5h4
+87999:  f3h5 h3g2 h5h4
+88000:  f3h5 h3g2 h5h4
+88001:  f3h5 h3g2 h5h6
+*****
